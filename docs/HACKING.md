@@ -1,5 +1,6 @@
 # Build locally
 `docker build -t probot-hello .`
+`docker build --no-cache -t probot-hello .`
 
 # Test the project
 `docker run -it --rm probot-hello npm run test`
